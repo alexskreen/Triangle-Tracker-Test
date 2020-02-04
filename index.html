@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" ></script>
+    <title>Triangle Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container">
+        <h1>What kind of triangle do you have?</h1>
+          <div class="row">
+            <div class="form-group">
+              <form id="triangleCalculator">
+                <div class="col-md-4">
+                  <label for="side1">Length of side 1:</label>
+                  <input type="text" class="form-control" id="side1">
+                </div>
+                <div class="col-md-4">
+                  <label for="side2">Length of side 2</label>
+                  <input type="text" class="form-control" id="side2">
+                </div>
+                <div class="col-md-4">
+                  <label for="side3">Length of side 3:</label>
+                  <input type="text" class="form-control" id="side3">
+                </div>
+                <button class="submit btn btn-info">Submit!</button>
+              </form>
+            </div>
+          </div>
+      </div>
+      <div id="equilateral">
+        <h1>Equilateral!</h1>
+        <p>Internal angle (degrees) 60° In geometry, an equilateral triangle is a triangle in which all three sides are equal. In the familiar Euclidean geometry, an equilateral triangle is also equiangular; that is, all three internal angles are also congruent to each other and are each 60°.</p>
+        <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Triangle.Equilateral.svg/1200px-Triangle.Equilateral.svg.png" alt="Picture of an equilateral triangle"></p>
+      </div>
+      <div id="isosceles">
+        <h1>Isosceles!</h1>
+        <p>An isosceles triangle is a triangle with (at least) two equal sides. In the figure above, the two equal sides have length and the remaining side has length. . This property is equivalent to two angles of the triangle being equal. An isosceles triangle therefore has both two equal sides and two equal angles.</p>
+        <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Triangle.Isosceles.svg/1200px-Triangle.Isosceles.svg.png" alt="Picture of an isosceles triangle"></p>
+      </div>
+      <div id="scalene">
+        <h1>Scalene!</h1>
+        <p>A scalene triangle is a triangle in which all three sides have different lengths. Also the angles of a scalene triangle have different measures. Some right triangles can be a scalene triangle when the other two angles or the legs are not congruent.</p>
+        <p><img src="https://image.shutterstock.com/image-vector/image-showing-scalene-triangle-these-260nw-1364042912.jpg" alt="Picture of a scalene triangle"></p>
+      </div>
+      <div id="notATriangle">
+        <h1>This isn't a triangle!</h1>
+        <p>Something went wrong. The lengths that you provided don't make a triangle</p>
+        <p><img src="https://qph.fs.quoracdn.net/main-qimg-727e72788cc759de0d719434b6bba920.webp" alt="Picture of an imcomplete triangle"></p>
+      </div>
+      <div class="row">
+      <div class="well col-md-4" id="question">
+        <p>Do you hate it when stupid background colors destroy your phone's battery life?</p>
+      </div>
+      </div>
+      <div id="yesButton">
+        <button class="btn" id="yesButton">Yeah!</button>
+      <div id="noButton">
+        <button class="btn" id="noButton">Nope!</button>
+      </div>
+      <div class="buttons">
+        <div id="darkmodeButtons">
+          <button class="btn btn-danger" id="lightmode">Light Mode</button>
+          <button class="btn btn-danger" id="darkmode">Dark Mode</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
