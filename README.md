@@ -12,8 +12,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 |--------------:|:-----------:|--------------:|
 |create triangle with 3 sides. |2,4,5 |triangle with three sides lengths 2, 4 and 5 |
 | Determine if the 3 lengths entered are not a tirangle | 3, 9, 22 | Not a triangle |
-| determine whether three lengths make a scalene |4,5,7 |Scalene triangle |
-
+| Determine whether three lengths make a scalene |4,5,7 |Scalene triangle |
+| Determine if the 3 lengths entered make an isosceles triangle | 5,5,7 | isosceles triangle |
+|
 
 
 
