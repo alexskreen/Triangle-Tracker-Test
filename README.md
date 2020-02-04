@@ -8,8 +8,15 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
-input: create triangle with 3 sides. 
-output: triangle (side1, side2, side3)
+|   Behavior    |   Input     |     Output    |
+|--------------:|:-----------:|--------------:|
+|create triangle with 3 sides. |2,4,5 |triangle with three sides lengths 2, 4 and 5 |
+| Determine if the 3 lengths entered are not a tirangle | 3, 9, 22 | Not a triangle |
+| 
+
+
+
+
 
 
 
